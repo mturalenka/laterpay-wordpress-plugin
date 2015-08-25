@@ -250,6 +250,29 @@ plugin backend. After we've checked your documents, we will send you an e-mail w
 
 == Changelog ==
 
+== 0.9.13( August 25, 2015 ): Bugfix Release (v1.0 RC6) ==
+* Price type incorrectly displayed for posts with global price 0 cost.
+* Check if all plugin features work correctly after WP upgrade to version 4.3.
+* Shortened URL to a purchased post is invalid
+* PHP Notices after WP Update to 4.2.4. / slow page load in sandbox mode (edited: more precise title)
+* Ajax issue: Thumbnails not loaded outside of blog posts
+* Admin can purchase paid post in "preview as visitor" mode when plugin in "test visible" mode.
+* Remove unnecessary files from plugin.
+* Customer Report: Action for LaterPay account links ignores custom CSS file
+* Add New Basic Tests
+* Adjust teaser overlay layout and functionality
+* Implement Exceptions handling functionality
+* Add revenue model logged-in PPU
+* Create Plugin Extension Boilerplate
+* Add "comment" field for voucher codes
+* Extend list of user agents in browscap cache file
+* Revise contextual help
+* Revise README
+* Unbind events when deleting time passes on pricing page
+* Time pass styling is broken with Theme "Twenty Fifteen"
+* Allow extensive customization of plugin via hooks
+* Purchase button is squeezed together on Android browsers
+
 = 0.9.12 (July 8, 2015): Bugfix Release (v1.0 RC5) =
 * Added feature to allow setting prices in time pass only mode
 * Added advanced setting to not contact LaterPay on the homepage
